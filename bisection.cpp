@@ -3,6 +3,9 @@
 #include<iomanip>
 using namespace std;
 
+
+
+
 double f(double x)
 {
     return 3*x + sin(x) - exp(x);
@@ -51,6 +54,9 @@ int main()
     double a = root(0,1.21,53); 
     cout<<setprecision(60)<<a;
     return 0;
+
+    int b = 3
+    cout<<b;
 }
 
 //0.36042372554426893583    only 4 precise
